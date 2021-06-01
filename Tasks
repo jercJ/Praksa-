@@ -1,0 +1,29 @@
+31. 5. 2021 - Opis sistemov ki se uporabljajo in povezujejo v procesu dela:
+
+SAP R/3 ERP
+Sistem programske opreme za koordiniranje vseh potrebnih zahtev(materiali, informacije, procesi, ljudje, itd.) 
+za dokončanje nekega poslovnega procesa(dokončanje naročila, pravilna dokumentacija, HR managment in upravljanje z materiali). 
+Razvila ga je nemska korporacija SAP SE. Novejša verzija / naslednik SAP R/3 je SAP S/4HANA.
+
+MM – Material Managment: Vse z materiali, skladišči, trenutnim inventarjem, … 
+
+PP – Production Planning: Vsi poslovni procesi povezani z produkcijo, npr. kupovanje materialov, 
+
+APO – Advanced Planner and Optimizer : namenjen organiziciji linije za dostavljanje materjalov.
+
+MES – manufacturing excange system
+Sistem za upravljanje, optimiziranje in nadzor produkcijske linije. MES sistemi zagotavljajo potrebne informacije za optimizacijo produkcijskih linij. 
+
+Werum PAS-X MES: podpiran v več kot polovici top 30 svetovnih farmacevtskih in bioloških firm. Podpira vse najbolj uporabljene stroje na produkcijskih linijah. 
+Omogoča nadzor nad postopkom od planiranja procea vse do zapakiranja. 
+
+I---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+1. 6. 2021 - Sistemi za verzioniranje  (opis kreiranje računa GIT HUB)  Version Control Software
+
+a) Git je sistem za upravljanje z kodo. Omogoča shranjevanje posameznih verzij kode, več-uporabniško urejanje, hitro urejanje kode, itd. 
+b) Git-Hub je spletna stran, ki omogoča uporabo Git-a več uporabnikom ter tudi oddaljen dostop do kode. 
+c) CVS (Centralized Version System) deluje podobno kot Git, s to razliko, da CVS zahteva bolj zakompliciran postopek za upravljanje. 
+Razlika je tudi, da ko kloniraš .git file, dobiš celo zgodovino(predhodne verzije) te datoteke, ne le klonirane različice kot pri CVS.
+d) SVN je v bistvu zelo podoben CVS-ju, le da je novejši in posledično bolj optimiziran. 
+e) Mercurial naj bi bil najbolj primerljiv z Git-om, ter celo lažji za uporabo ter učenje za upravljanje z njim, vendar ima bolj čudno strukturo. 
