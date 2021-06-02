@@ -17,7 +17,7 @@ Sistem za upravljanje, optimiziranje in nadzor produkcijske linije. MES sistemi 
 Werum PAS-X MES: podpiran v več kot polovici top 30 svetovnih farmacevtskih in bioloških firm. Podpira vse najbolj uporabljene stroje na produkcijskih linijah. 
 Omogoča nadzor nad postopkom od planiranja procea vse do zapakiranja. 
 
-I---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+I---------------------------------------------------------------------------------------------------------------------------------------------------------------------------I
 
 1. 6. 2021 - Sistemi za verzioniranje  (opis kreiranje računa GIT HUB)  Version Control Software
 
@@ -27,3 +27,37 @@ c) CVS (Centralized Version System) deluje podobno kot Git, s to razliko, da CVS
 Razlika je tudi, da ko kloniraš .git file, dobiš celo zgodovino(predhodne verzije) te datoteke, ne le klonirane različice kot pri CVS.
 d) SVN je v bistvu zelo podoben CVS-ju, le da je novejši in posledično bolj optimiziran. 
 e) Mercurial naj bi bil najbolj primerljiv z Git-om, ter celo lažji za uporabo ter učenje za upravljanje z njim, vendar ima bolj čudno strukturo. 
+
+VSC (Version Control Systems) je namenjen spreminjanju kode, oz. pregledu nad spremembam v kodi. 
+Spremembo kode se označi z številko ali črko, npr. "sprememba 1", zraven katere se doda čas, ob katerem je bila dodana sprememba(timestamp), ter ime osebe,
+ki je naredila spremembo. Vsako verzijo kode pred in po spremembi lahko primerjaš, združis in po potrebi izbrišeš.
+VSC večinoma deluje kot svoje aplikacije, vendar so tudi integrirane v nekaterih programih kot dodatne funkcije.
+
+Continuous Integration: je proces/dejanje združevanja več delov kode v skupno celoto. Npr. na aplikaciji delaveč ljudi. 
+Nekdo je zaposlen za izgled aplikacije, drugi je zadolžen za delovanje aplikacije na različnih napravah, nekdo pa za razvijanje aplikacije. 
+Vsi pošljejo trenutno verzijo svojega dela kode na skupno mesto, kjer drugi član projekta testira,
+kako aplikacija deluje in kje je potrebno narediti spremebe. 
+
+Continuous Delivery: Je postopek, pri katerem določena skupina oseb v projektu stalno preverja, če je aplikacija pripravljena, da jo izdajo. To se dela večino z avtomatskimi
+testi, ki pokažejo, da če jih aplikacija opravi, to pomeni, da je pripravljena na release. 
+
+VSC, CI in CD se povezuje čez t.i. CI/CD Pipeline, ki bistveno predstavlja potek razvijanja in nadgrajevanja aplikacije. Vsebuje 5 faz:
+  -Version Control:
+  V tej fazi se z uporabo VSC pregleda kodo ki je že narejena ter e določi, kje so potrebne nadgradnje ali popravki.
+  
+  -Build:
+  Verzija aplikacije se sprogramira.
+  
+  -Testing and Staging:
+  Preverjanje posameznih delov aplikacije če deluje pravilno ter delanje popravkov kjer je potrebno.
+  
+  -Auto Testing:
+  Več testov za aplikacijo.
+  
+  -Deployment
+  Če je aplikacija prišla čez vse teste, se v tej fazi pripravi za produkcijo. V primeru da ni prestala vseh testov, se napake popravi in spet pošlje čez testne faze 
+  dokler aplikacija ni pripravljena za zadnjo fazo.
+  
+  Za vsako novo verzijo aplikacije se ta krog ponovi.
+  
+  I-----------------------------------------------------------------------------------------------------------------------------------------------------------------------I
