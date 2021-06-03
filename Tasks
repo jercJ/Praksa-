@@ -60,4 +60,34 @@ VSC, CI in CD se povezuje čez t.i. CI/CD Pipeline, ki bistveno predstavlja pote
   
   Za vsako novo verzijo aplikacije se ta krog ponovi.
   
-  I-----------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+I-----------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+2. 6. 2021 - Scrum, Dev Ops, TTD
+
+Agilna metodologija predstavlja skupek metod za razvijanje programske opreme, ki temelji predvsem na hitrosti in prilagodljivosti. V ospredje postavlja hitre rešitve,
+ki se jih lahkotno prilagodi glede na situacijo. Je rezultat skupnega dela samoorganiziranih ekip, ki so zadolžene z različnim delom.
+
+Metoda Scrum daje pomen na prožnost/prilagodljivot in ustarjalnost pri razvijanju programske opreme. Predvesem podpira samoorganiziranost posameznih skupin, vodja projekta
+je zadolžen samo za nadzor nad projektom, ter intervencijo če je nujno. Medota se fokusira na vsakodnevno dodajanje novih iteracij, pri katerih vsaka doda neko novo funkcijo
+aplikaciji. Pomemben je tudi vsakodnevni pregled nad dodano iteracijo, da posamezna skupina ve, kaj je potrebno dodati/prilagoditi svojemu delu. Metoda ima 4 pomembne vloge:
+
+- Product Owner:
+  Lastnik izdelka. Skrbi za priskrbovanje potrebnih sredstev za projekt, vzdrzevanje seznama zahtev, ter planira izdajo verzij aplikacije za v produkcijo.
+  
+- Team: 
+  Ekipa. Je zadolžena za razvoj izdelka. Sami si izberejo kako bodo naredili projekt, ter so tudi sami odgovorni za uspeh/neuspeh projekta.
+  
+- Scrum Master:
+  Skrbi, da projekt poteka po načelih metodologije Scrum.
+  
+- Observers:
+  Opazovalci. So drugi udeleženci, ki so zaintresirani v projekt. Lahko ga opazujejo, vendar se ne smejo vmešavati v projekt.
+  
+Cilj Dev Ops je skrajšanje cikla razvijanja programske opreme. Razvil se skupaj s agilno metodologijo, in tudi podobna sta si v nekaj pogledih. 
+Bistveno je sestavljen iz Continuous Integration, Countinuous Delivery, Countinuous Deployment in Continuous Feedback. Poteka v krogu, ki se ne konča. 
+Začne se z planiranjem aplikacije, ki se jo nato sprogramira, dokoncno zgradi, testira, ter nato izda. Aplikacijo se nato uporablja in spremlja ter zabeleži, kakšne spremembe
+in dodatki so potebni. Tako se krog spet vrne na začetek, kjer je potrebno splanirati dodajanje teh funkcij, ter nato kodiranje, testiranje, itd.
+
+Test Driven Development je drugačno od navadnih metod programiranja in testiranja. Tukaj se ustvari teste, s katerimi preverimo funkcionalnost vsakega posebej dela kode.
+Če je test nepravilen, se kodo ponovno napiše, ter poskusi znova. Ko je test pravilen, se naredi nov test, in dokler še ta ni rešen pravilno, se kodo dopolnjuje.
+Ta krog se ponavlja, dokler aplikacija ni končana. 
