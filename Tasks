@@ -91,3 +91,51 @@ in dodatki so potebni. Tako se krog spet vrne na začetek, kjer je potrebno spla
 Test Driven Development je drugačno od navadnih metod programiranja in testiranja. Tukaj se ustvari teste, s katerimi preverimo funkcionalnost vsakega posebej dela kode.
 Če je test nepravilen, se kodo ponovno napiše, ter poskusi znova. Ko je test pravilen, se naredi nov test, in dokler še ta ni rešen pravilno, se kodo dopolnjuje.
 Ta krog se ponavlja, dokler aplikacija ni končana. 
+
+I---------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+3. 6. 2021 - QA, Automatic Testing, Unit testing
+
+Quality Assurance Team(QA) je iz nekaterih pogledov eden najpomembnejših ekipe, ki proizvaja programsko opremo. Naloga te ekipe je čez cel proces razvijanja programske opreme
+zagotavljati, da je aplikacija zgrajena po določenih kvalitetnih standardih. To delo je pomembno predvsem za podjetje, saj le z izdelki, ki zadovoljujejo ali presegajo
+pričakovanja strank lahko ohranijo svoje stranke in dobijo nove. V ekipi je 5 glavnih vlog:
+
+- Manual QA Engineers:
+  Preverjajo kakovost aplikacije na načine, ki pri avtomatiziranih testih niso mogoči. Postaviti se morajo v vlogo uporabnika ter testirati, če vse funkcije delujejo pravilno
+  preden se aplikacijo izda za uporabnike, ter kasneje poskušajo tudi izločiti bug-e, oz. napake v aplikaciji, ki jih sporočijo uporabniki, npr. ugašanje aplikacije ali če
+  aplikacija zamrzne. 
+  
+- Automation QA Engineers:
+  Podobno kot prejšni, tudi ti preverjajo delovanje aplikacije s testi, le da napišejo avtomatske teste ter jih nato samo spremljajo. Večinoma preverjajo, če so zaželjene
+  specifikacije aplikacije po standardih, zadanih s strani lastnika projekta, kot so naprimer, da aplikacija dela dovolj hitro, koliko prostora zasede, itd. 
+  
+- Performance QA Engineers:
+  Preverjajo delovanje aplikacije v primeru, da je kapaciteta uporabnikov polna, oz. gre čez zadano mejo. Ta ekipa je še posebno potrebna pri aplikacijah ki delujejo prek
+  strežnikov, npr. Multiplayer igre, kjer veliko igralcev igra na enem strežniku, kar ga lahko preobremeni. 
+  
+- Technical QA Engineers:
+  Pomagajo in vodijo ekipo v primeru težav pri testih, ter pregledujejo dokumentacijo, ki jo QA ekipa naredi pri testih, ter poskušajo predviditi težave in rešitve za le-te.
+  
+- Team QA Managers:
+  Vodje posameznih ekip, ki pregledujejo delo celotne ekipe in vodijo in postavijo cilje ekipi. Prav tako spremljajo razvoj aplikacije ter se dogovarjajo o tem, katera dela
+  so bolj pomembna, ter kak pristop mora ekipa imeti pri delu.
+  
+Prednosti uporabe QA ekipe so predvsem izločanje problemov, preden se pojavijo. Med drugim dajo veliko prednosti, npr.:
+- Več časa zaradi manj težav pri delu.
+- Bolj zadovoljni uporabniki saj ekipa poskrbi da imajo že pri izdaji karseda dobro izkušnjo. To naredi tako imenovan Butterfly Effect, saj bodo uporabniki, ki so z aplikacijo
+  zadovoljni, le-to priporočili svojim prijateljem/znancem, ki bodo poslednično lahko postali novi uporabniki.
+- Pomagajo podjetju, saj prihrani denar, ki ga investira skupaj z časom, ter tudi naredi dober vtis na uporabnike, kar naredi večje možnosti, da bodo uporaniki se v prihodnosti 
+spet odločili za uporabo produktov tega podjetja. 
+
+Avtomatsko testiranje(AT) je pomemben del razvijanja vsake aplikacije. Potrebni so predvsem zato, ker omogočajo teste, ki jih je ročno težko izvesti. Prav tako so za testiranje
+dobra opcija, saj je možno kadarkoli pregledati rezultate testov ter kako se je aplikacija med njimi odzivala.
+
+Funcionalno testiranje preverja, kako delujejo in se odzivajo fukcije aplikacije kot so pritiski na designirane gumbe, odpiraje menijev, itd. 
+Nefunkcionalno testiranje pa preverja, kako deluje druge specifikacije v aplikaciji, npr. hitrost, poraba RAM-a, prilagodljivost, itd. 
+
+Black box Testing je metoda testiranja aplikacije brez pogleda v njeno strukturo, oz. brez pogleda v kodo aplikacije. Predvideno je, da oseba ki testira aplikacijo, ve, kaj bi
+se moralo zgoditi, vendar ne, kako se to zgodi. To pomeni, da tester poskusi aplikaciji dati različne vnose, ter tako preveri, kateri vnosi dajo dober odziv, kateri pa ne. 
+
+White box Testing je nasprotje Black box testiranja, in se fokusira na notranje delovanje aplikacije. Deluje na principu testiranja z točno določenimi vnosi, ter preverja, če
+se aplikacija na ta vnos odzove, kakor bi se mogla. 
+
