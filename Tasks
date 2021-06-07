@@ -154,3 +154,10 @@ Imamo veliko orodji za avtomatsko testiranje, med drugimi tudi:
 - Cerberus
 - TestArchitect
 (https://www.guru99.com/automated-testing-tools.html)
+
+I----------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+4. 6. 2021 - FTP Servers
+
+FTP oz File Transfer Protocol je protokol, ki se uporablja pri prenašanju datotek prek spleta. Če želimo datoteko nekam objaviti ali naložiti na računalnik s spletne strani,
+pri tem uporabimo FTP, ki je standard v internetu. FTP Servers pa so strežniki, ki te datoteke hranijo.
