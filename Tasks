@@ -139,3 +139,18 @@ se moralo zgoditi, vendar ne, kako se to zgodi. To pomeni, da tester poskusi apl
 White box Testing je nasprotje Black box testiranja, in se fokusira na notranje delovanje aplikacije. Deluje na principu testiranja z točno določenimi vnosi, ter preverja, če
 se aplikacija na ta vnos odzove, kakor bi se mogla. 
 
+Unit Testing je način testiranja programske opreme, pri katerem se preskušajo posamezne komponente programske opreme. Cilj tega načina je potrditi, ali vsaka enota 
+programske kode deluje po pričakovanjih. Tako testiranje se največ uporablja v fazi razvoja aplikacije. Ti testi izolirajo del kode in preverijo, če deluje pravilno. 
+
+Imamo veliko orodji za avtomatsko testiranje, med drugimi tudi: 
+- Kobiton
+- TestProject
+- Ranorex
+- Subject7
+- LambaTest
+- Parasoft
+- Selenium
+- IBM RTF
+- Cerberus
+- TestArchitect
+(https://www.guru99.com/automated-testing-tools.html)
