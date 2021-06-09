@@ -161,3 +161,15 @@ I-------------------------------------------------------------------------------
 
 FTP oz File Transfer Protocol je protokol, ki se uporablja pri prenašanju datotek prek spleta. Če želimo datoteko nekam objaviti ali naložiti na računalnik s spletne strani,
 pri tem uporabimo FTP, ki je standard v internetu. FTP Servers pa so strežniki, ki te datoteke hranijo.
+
+I----------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+7. 6. 2021 - Python, C#
+
+Python je vsestranski programski jezik. Uporablja se ga za mnogo področij. npr. Web Development, AI, Mobile Development, operacijske sisteme, itd.. 
+Je eden najlažjih programskih jezikov za učenje/začetnike, saj je lepo organiziran in ima relativno lahke ukaze/ukazne vrstice. Razvili so ga leta 1980, ter ga izpopolnjevali
+do današnjega dne. Python ima tudi GUI, s katerim lahko ustvarjaš tudi bolj komplicirane aplikacije.
+
+C# je prav tako vsestranski programski jezik, le da je bolj zakompliciran iz zahteven kakor Python. Največja posebnost C# jezika je, da je rezredno orientiran(class-based).
+To pomeni, da se fokusira predvsem na objektno programiranje. Večinoma se uporablja v okolju Windows.Net framework. Priporočeno je, da imaš pred začetkom programiranja z 
+C# jezikom že vsaj osnovno znanje programiranja. 
