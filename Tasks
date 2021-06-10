@@ -173,3 +173,54 @@ do današnjega dne. Python ima tudi GUI, s katerim lahko ustvarjaš tudi bolj ko
 C# je prav tako vsestranski programski jezik, le da je bolj zakompliciran iz zahteven kakor Python. Največja posebnost C# jezika je, da je rezredno orientiran(class-based).
 To pomeni, da se fokusira predvsem na objektno programiranje. Večinoma se uporablja v okolju Windows.Net framework. Priporočeno je, da imaš pred začetkom programiranja z 
 C# jezikom že vsaj osnovno znanje programiranja. 
+
+I--------------------------------------------------------------------------------------------------------------------------------------------------------------------------I
+
+8. 6. 2021 - API, REST, SOAP
+
+API oz aplikacijski programski vmesnik definira interakcije, ki jih imajo različne komponentne aplikacije ali celo različne aplikacije med seboj. Definira, kakšne zahteve
+se lahko naredijo, kakšen podatkovni tip se pričakuje, itd.. API na ta način definira funkcionalnost programskih komponent na način, ki je neodvisen od dejanske implementacije. 
+To omogoča različne implementacije komponente, ne da bi bil pri tem ogrožen predpisan vmesnik za uporabo komponente. API poenostavi razvoj programov s tem, da definira 
+sestavne bloke, ki jih program sestavi pri izdelavi aplikacij.
+
+REST je eden najbolj uporabljenih API-jev v Web Services. Predstavlja način, ki ga uporabljata dva sistema, da se pogovarjata preko HTTP, podobno kot brskalniki in strežniki. 
+Definiran je bil letaa 2000, in se od drugih, npr. SOAP, CORBA in XML-RCP, ki imajo zastavljena točno določena pravila za pogovarjanje, razlikuje v tem, da namesto pravil bolj
+implementira predloge, kako bi moralo pogovarjanje potekati. Nekateri primeri teh so:
+
+- Client:Server;
+  Sistem A pošlje zahtevo preko HTTP na URL, ki ga gosti Sistem B. Ta nato vrne odgovor.
+  
+- Stateless:
+  Zahteva Sistema A mora imeti vse potrebne dele, da se Sistem B lahko odzove.
+  
+- Cacheable:
+  Odgovor mora vsebovati nek del, ki pove, ali je cahceable ali ne. 
+  
+- Layered:
+  Sistemu A, ki pošilja zahtevo, ni potrebno vedeti, kakšen sistem je Sistem B.
+  
+SOAP je, kot REST, protokol, ki se ga uporablja za komuniciranje v internetnih storitvah. Z jezikom XML zašifrira sporočilo, ter ga preko HTTP pošlje do ciljne destinacije,
+ter še z enim protokolom, npr. TCP. Narejen je tako, da ni odvisen od programskega tipa modela, ki ga uporablja. Sporočilo, ki ga pošlje, je sestavljeno v XML obliki, in
+sicer iz:
+
+- Envelope
+- Header
+- Body
+- Fault
+
+Če primerjamo REST API z SOAP:
+
+SOAP:                                                                                         REST: 
+- Language, platform, and transport independent                                               - Uses easy to understand standards like swagger and OpenAPI Specification 3.0
+  (REST requires use of HTTP)                                                                 - Smaller learning curve
+- Works well in distributed enterprise environments                                           - Efficient: SOAP uses XML for all messages,
+  (REST assumes direct point-to-point communication)                                            REST mostly uses smaller message formats like JSON
+- Standardized                                                                                - Fast (no extensive processing required)
+- Provides significant pre-build extensibility                                                - Closer to other Web technologies in design philosophy
+  in the form of the WS* standards
+- Built-in error handling
+- Automation when used with certain language products
+
+Kot zaključek se pokaže da je REST le hitrejši za uporabo, večjih pomembnih prednosti nima prek SOAP-a. 
+
+I---------------------------------------------------------------------------------------------------------------------------------------------------------------------------I
